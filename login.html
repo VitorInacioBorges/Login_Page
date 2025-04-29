@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Login Vitorino </title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Faça aqui o seu login">
+        <link rel="stylesheet" href="loginstyle.css">
+        <link rel="icon" href="images/homeicon.png">
+    </head>
+    <body>
+        <div class="wapper">
+            <form action="index.php" method="post" enctype="multipart/form-data">
+                <h1 class="title"> Login </h1>
+                <div class="inputbox">
+                    <input type="text" placeholder="Login" minlength="6" required>
+                    <i class="i"></i>
+                </div>
+                <div class="inputbox">
+                    <input type="password" class="password" placeholder="Senha" minlength="8" required>
+                    <i class="i"></i>
+                </div>
+                <div class="forget">
+                    <label> <input type="checkbox"> Lembre de mim </label>
+                    <a href="#"> Esqueci minha senha </a>
+                </div>
+                <button type="submit" class="button"> Entrar </button>
+                <div class="register">
+                    <p> Não tem uma conta? <a href="#"> Cadastre-se </a> </p>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
